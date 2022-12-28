@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+}
+.header{
+  background: #282c34;
+  color: aliceblue;
+  text-align: center;
+
+}
+
+.main{
+  padding-top:150px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  align-items: center;
+}
+.pwdbuttons{
+  padding-top: 10px;
+  display: flex;
+  column-gap:10px;
+}
+
+button{
+  border-radius: 4px;
+  color: white;
+  background: #282c34;
+}
+.options{
+  padding-top: 10px;
+  display:flex;
+  column-gap: 150px;
+}
+
+.select{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+}
+
+.selectedlength{
+  text-align: center;
+}
+.inp{
+  width :250px
+}
